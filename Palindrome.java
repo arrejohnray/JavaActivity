@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class Palindrome {
     public static void main(String[] args) {
-        String word = "Ana ANA";
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("Input word: ");
+        String word = scan.nextLine();
 
         String reverse = "";
 
@@ -8,10 +13,7 @@ public class Palindrome {
             reverse = word.charAt(i) + reverse;
         
 
+        System.out.println(reverse.equalsIgnoreCase(word) ? "Palindrome" : "Not Palindrome");    
 
-        if (reverse.equalsIgnoreCase(word)) 
-            System.out.println("Palindrome");
-        else 
-            System.out.println("Not palindrome");
     }
 }
