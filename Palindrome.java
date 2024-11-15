@@ -7,13 +7,15 @@ public class Palindrome {
         System.out.print("Input word: ");
         String word = scan.nextLine();
 
-        String reverse = "";
+        String palindrome = "";
 
         for(int i = 0; i < word.length(); i++)
-            reverse = word.charAt(i) + reverse;
+            palindrome = word.charAt(i) + palindrome;
         
 
-        System.out.println(reverse.equalsIgnoreCase(word) ? "Palindrome" : "Not Palindrome");    
+        System.out.println(palindrome);
+
+        System.out.println(palindrome.equalsIgnoreCase(word) ? "Palindrome" : "Not Palindrome");    
 
     }
 }
