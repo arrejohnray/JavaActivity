@@ -1,4 +1,6 @@
 public class PrintNumbers {
+
+
     public static void main(String[] args) {
         int[] numbers = {
             951, 402, 984, 651, 360, 69, 408, 319, 601, 485, 980, 507, 725, 547, 544, 
@@ -9,7 +11,7 @@ public class PrintNumbers {
             958, 609, 842, 451, 688, 753, 854, 685, 93, 857, 440, 380, 126, 721, 328, 753, 470, 
             743, 527};
     
-    
+            //Loop Through the array
             for(int number : numbers){
               if(number == 237){
                 System.err.println(number);
@@ -17,6 +19,7 @@ public class PrintNumbers {
               }else if(number % 2 == 0){
                 System.out.println(number);
               }
+
             }
     }
     
