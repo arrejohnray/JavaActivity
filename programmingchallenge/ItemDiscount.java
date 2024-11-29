@@ -5,9 +5,9 @@ public class ItemDiscount {
     public static void main(String[] args) {
         double price = 130.00;
 
-        GetDiscount disc10 = num -> num * .10;
-        GetDiscount disc20 = num -> num * .20;
-        GetDiscount disc50 = num -> num * .50;
+        GetDiscount disc10 = num -> num - (num * .10);
+        GetDiscount disc20 = num -> num - (num * .20);
+        GetDiscount disc50 = num -> num - (num * .50);
         
         System.out.println("Price: " +price+ " 10% discount: "+ disc10.getDiscount(price));
         System.out.println("Price: " +price+ " 20% discount: "+ disc20.getDiscount(price));
