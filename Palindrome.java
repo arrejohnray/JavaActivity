@@ -6,6 +6,7 @@ public class Palindrome {
 
         System.out.print("Input word: ");
         String word = scan.nextLine();
+        scan.close();
 
         String palindrome = "";
 

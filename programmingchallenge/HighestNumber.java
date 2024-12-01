@@ -5,7 +5,6 @@ public class HighestNumber {
         int numbers[] = {1,1,-1};
      
         int highest = 0;
-        String message = "";
     
         if(numbers[0] == numbers[1] && numbers[1] == numbers[2]){
             System.out.println("All numbers are equal");
