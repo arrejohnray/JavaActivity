@@ -1,3 +1,4 @@
+package task;
 public class BasicArithemticOperator {
 
     public static double addNum(double num1, double num2){

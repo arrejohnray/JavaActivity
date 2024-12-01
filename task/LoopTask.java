@@ -1,3 +1,4 @@
+package task;
 public class LoopTask {
     public static void main(String[] args) {
         int check_number = 10;
