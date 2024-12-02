@@ -16,7 +16,7 @@ public class CumulativeSum {
     }
 
     public static void main(String[] args) {
-        getAllSum(4, 5,7);
+        getAllSum(4, 5,10);
         
     }
 }
